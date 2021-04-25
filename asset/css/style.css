@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+header
+{
+    width: 100%;
+    height: 15vh;
+    margin: 0 auto;
+}
+.bg{background-color:  #e6e6e6;}
+
+header .nav_top
+{
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav_top ul li
+{
+    display: inline;
+    margin: 0 30px;
+}
+header .nav_top ul li a 
+{
+    text-decoration: none;
+    color: #111;
+    font-size: .75rem;
+}
+header .nav_top ul li a img
+{
+    height: 100%;
+    width: 15px;
+}
+.nav_down
+{
+    width: 80%;
+    height: calc(100% - 30px);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_down img
+{
+    height: 90px;
+    padding: 10px;
+}
+.nav_down li
+{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+.nav_down li a
+{
+    text-decoration: none;
+    color: #111;
+    font-size: .9rem;
+}
+.nav_down li a:hover
+{
+    text-decoration: underline;
+    color: #f00;
+}
+main
+{
+    width: 100%;
+    height: 85vh;
+    background: url('/asset/img/1920x580-FR-Covid-Free.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+main .biglietto
+{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 3vh;
+    color: #fff;
+}
+.biglietto h1
+{
+    color: #f00;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+.biglietto ul
+{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.biglietto ul li
+{
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+.biglietto ul li:last-child
+{
+    color: #006c67;
+    background-color: white;
+    padding: 2px;
+    font-weight: 600;
+}
+.biglietto ul li span
+{
+    display: block;
+}
+.bottone
+{
+    width: 60%;
+    margin: 0 auto;
+    background: #ea1d45;
+    padding: 10px;
+}
+.bottone a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.bottone a:hover
+{
+    text-decoration: underline;
+    color: #123;
+}

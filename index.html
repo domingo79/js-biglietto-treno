@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Biglietto Treno</title>
+</head>
+
+<body>
+    <header>
+        <!--nav top start-->
+        <nav class="bg">
+            <div class="nav_top">
+                <ul>
+                    <li><a href="#">Sito del gruppo</a></li>
+                    <li><a href="#">La Freccia Mag</a></li>
+                    <li><a href="#">TrenItalia for Business</a></li>
+                    <li><a href="#">Modifica Biglietto</a></li>
+                    <li><a href="#">Supporto</a></li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user" aria-hidden="true"> Aria Riservata</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <img src="./asset/img/icona-ita.png" alt="">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--nav top end-->
+        <!-- nav down start -->
+        <div class="nav_down">
+            <img src="./asset/img/logo-trenitalia.png" alt="">
+            <ul>
+                <li><a href="#">le frecce</a></li>
+                <li><a href="#">altri treni</a></li>
+                <li><a href="#">trasporto regionale</a></li>
+                <li><a href="#">offerte e servizi</a></li>
+                <li><a href="#">carta freccia</a></li>
+                <li><a href="#">info e assistenza</a></li>
+            </ul>
+        </div>
+        <!-- nav down end -->
+    </header>
+
+    <main>
+        <!-- la section biglietto ci da risultati con js start -->
+        <section class="biglietto">
+            <h1> <i>Soluzione migliore trovata:</i> </h1>
+            <ul>
+                <li>
+                    Km da percorrere: <span id="km"></span>
+                </li>
+                <li>
+                    Età:<span id="eta"></span>
+                </li>
+                <li>
+                    Costo della tratta: <span id="tratta"></span>
+                </li>
+                <li>
+                    Sconto Applicato: <span id="sconto"></span>
+                </li>
+                <li>
+                    Prezzo totale: <span id="tot_prezzo"></span>
+                </li>
+            </ul>
+            <div class="bottone"><a href="#"> Procedi con l'acquisto</a></div>
+            <!-- la section biglietto ci da risultati con js end -->
+
+        </section>
+    </main>
+    <!-- js main e awesome start -->
+    <script src="https://kit.fontawesome.com/2c30adbff5.js" crossorigin="anonymous"></script>
+    <script src="./asset/js/main.js"></script>
+    <!-- js main e awesome end -->
+</body>
+
+</html>
